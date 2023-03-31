@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header class="container navbar navbar-expand-lg ">
+    <!-- navbar -->
+    <div class="container-fluid ">
+      <a class="navbar-brand d-flex align-items-center mt-2" href="#">
+        <img class="navbar-brand__logo p-0" src="./assets/img/logo-removebg-preview.png" alt="">
+        <h3 class="navbar-brand__title ms-3 fs-5">THENORTHPOLE</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-menu__mid" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="navbar-menu__mid-link nav-link p-3 fs-5 " aria-current="page" href="index.html">Trang Chủ</a>
+          </li>
+          <li class="nav-item ">
+            <a class="navbar-menu__mid-link nav-link p-3 fs-5" href="dssp.html">Danh sách sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-menu__mid-link nav-link p-3 fs-5" href="#">Liên hệ</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+        <div class="navbar-nav navbar-nav__info ms-2 ">
+          <a class="navbar-menu__mid-link d-flex align-items-center fs-5 text-decoration-none" href="#">
+            <i class="bi bi-facebook fs-4 p-2 text-primary"></i>
+            <span class="text-black">Facebook</span>
+          </a>
+          <a class="navbar-menu__mid-link d-flex align-items-center fs-5 text-decoration-none" href="#">
+            <i class="bi bi-instagram fs-4 p-2 text-danger"></i>
+            <span class="text-black">Instagram</span> 
+          </a>
+          <a class="navbar-menu__mid-link d-flex align-items-center fs-5 text-decoration-none" href="#">
+            <i class="bi bi-twitter fs-4 p-2 text-info"></i>
+            <span class="text-black">Twitter</span>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </header>
+   <!-- slider -->
+   <div id="carouselExampleCaptions" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/katana.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="mb-5">Katana Japan</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/katana.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="mb-5">Katana Japan</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/katana.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="mb-5">Katana Japan</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container mt-5">
+    <h1 class="fw-medium">Đam mê </h1>
+    <p class="fw-light">Kiếm là một bộ môn võ thuật cổ xưa, với những kỹ thuật đấm đá, đánh bài và chém gió cực kỳ tinh tế và đa dạng. Tôi yêu thích kiếm vì nó cung cấp cho tôi nhiều thách thức và giúp tôi phát triển thể chất cũng như tinh thần. Tôi luôn háo hức trong mỗi buổi tập và cảm thấy rất hài lòng khi có một lần được thử sức trong một trận đấu kiếm thực. Kiếm đem lại cho tôi sự tự tin, sự kiên trì và trách nhiệm - các giá trị mà tôi có thể áp dụng vào cuộc sống hàng ngày của mình và giúp tôi trở thành một người mạnh mẽ hơn.</p>
+  </div>
+  <div class=" container container-lg ">
+    <h2 class="p-3 border-bottom mt-5">kiếm Hán <span class="badge bg-danger fs-6 ">New</span></h2>
+    <div  class="row fix_row">
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+            <div class="card main-list" >
+              <img src="https://i.pinimg.com/474x/be/08/c7/be08c7678591fcb8ed88901952e43c55.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Kiếm Hán</h5>
+                <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+                <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+                <div class="main-list__price">
+                  <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+                  <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+                </div>
+                <div class="main-list__star text-center fs-3 text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+          <div class="card main-list" >
+            <img src="https://i.pinimg.com/474x/ad/e2/92/ade29254e36bc5a18cc56b1a064f6ad7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kiếm Hán</h5>
+              <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+              <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+              <div class="main-list__price">
+                <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+                <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+              </div>
+              <div class="main-list__star text-center fs-3 text-warning mb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/82/85/35/8285350aa471df529ba928b083acf4e7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/0f/66/3a/0f663a01b2bed75f93684de44cc32314.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/b7/e4/94/b7e4947c3bee681d255903af03cc2dc0.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/39/35/79/3935793af727db9378c359f1adb44edd.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/5a/21/38/5a21387a9cff49f53961dd37e7e19613.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/dd/c5/39/ddc539ea558145e1ea37b48e17d11c2f.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+    </div>
+    <h2 class="p-3 border-bottom mt-5">kiếm nhật <span class="badge bg-danger fs-6 ">New</span></h2>
+    <div  class="row fix_row">
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+            <div class="card main-list" >
+              <img src="https://i.pinimg.com/474x/00/cc/9d/00cc9d5415acd43e130939dd13ab591c.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Kiếm Hán</h5>
+                <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+                <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+                <div class="main-list__price">
+                  <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+                  <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+                </div>
+                <div class="main-list__star text-center fs-3 text-warning mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+          <div class="card main-list" >
+            <img src="https://i.pinimg.com/474x/3a/05/ff/3a05ffaca3bdb488fb13a82071c640ed.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kiếm Hán</h5>
+              <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+              <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+              <div class="main-list__price">
+                <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+                <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+              </div>
+              <div class="main-list__star text-center fs-3 text-warning mb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/e5/13/97/e51397d04944fe066aa2cda00935a0d0.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/72/9c/0f/729c0f21821fbf74e6769503ff0741f8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/3a/81/3e/3a813e54c7435018065a82abc0e619b9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/ea/89/fb/ea89fb2911ab3bf41ecdc71f01c4a49e.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="https://i.pinimg.com/474x/a3/80/ef/a380ef06080208571bff086da5087644.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
+        <div class="card main-list" >
+          <img src="./assets/img/banner4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Kiếm Hán</h5>
+            <p class="card-text text-center m-1">Giá Mềm chất lượng, xem thêm thông tin tại đây.</p>
+            <p class="text-center text-success fw-bold ">Free U.S. Shipping</p>
+            <div class="main-list__price">
+              <p class="main-list__price-old text-center text-danger fw-bold text-decoration-line-through ">2.200.000 VND</p>
+              <p class="main-list__price-new text-center text-dark fw-bold  m-1">1.200.000 VND</p>
+            </div>
+            <div class="main-list__star text-center fs-3 text-warning mb-2">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <a href="https://www.facebook.com/Darkshi.11" class="btn btn-dark w-100  fs-5">Liên Hệ</a>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="footer mt-5 pb-5 bg-black">
+    <div class="container">
+      <div class="row footer-list">
+        <div class="col-4 text-light mt-5 text-center footer-item__first">
+          <h4 class="border-bottom pb-3">Danh sách</h4>
+          <p class="fs-5">Kiếm Hán</p>
+          <p class="fs-5">Kiếm Nhật</p>
+          <p class="fs-5">Hàng có sẵn</p>
+        </div>
+        <div class="col-4 text-light mt-5 footer-item">
+          <h4 class="border-bottom text-center pb-3">Trợ giúp phản hồi</h4>
+          <div class="footer-item__body">
+            <img src="./assets/img/logo.jpg" alt="">
+            <div class="footer-item__link ms-5">
+              <h4>Bình Duy Shinobi</h4>
+              <a href="">
+                <p>Youtube</p>
+              </a>
+              <a href="">
+                <p class="bg-primary">Facebook</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mt-5 footer-item__body-last">
+          <h4 class="text-center border-bottom pb-3 text-light">Trang chính thức</h4>
+          <img src="./assets/img/Capture.PNG" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

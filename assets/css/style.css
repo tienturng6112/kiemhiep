@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+        
+}
+
+
+
+
+.navbar-brand__logo{
+    width: 60px;
+}
+.navbar-nav__info span{
+    display: none;
+}
+.navbar-menu__mid{
+    margin-left: -140px;
+}
+.navbar-menu__mid-link{
+    transition: transform linear 0.2s;
+}
+.navbar-menu__mid-link:hover{
+    transform: translateY(-3px);
+    color:gainsboro;
+}
+.container-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-search__input{
+    outline: none;
+    padding: 8px 16px;
+}
+/* slider */
+/* main */
+.main{
+    /* width: 100%; */
+}
+.main-list{
+    transition: transform linear 0.2s;
+}
+.main-list:hover{
+    transform: translateY(-4px);
+}
+.main-list__price{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+}
+.main-list__price-new{
+    font-size: 18px;
+}
+.main-list__price-old{
+    font-size: 12px;
+}
+/* footer */
+.footer-item img{
+    width: 100px;
+}
+.footer-item__body{
+    display: flex;
+    align-items: center ;
+}
+.footer-item__link p{
+    padding: 6px 8px 10px 8px;
+    background-color: red;
+    border-radius: 3px;
+}
+.footer-item__link a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-item__link p:hover{
+    opacity: 0.8;
+}
+.footer-item__body-last img{
+    height: 145px;
+    width: 100%;
+}
+.card-img-top{
+    max-height: 400px;
+}
+/* mobile */
+@media (max-width:576px){
+    .navbar-menu__mid{
+        margin-left: 0;
+    }
+    .navbar-nav__info{
+        flex-direction: row;
+    }
+    .navbar-nav__info span{
+        display: block;
+    }
+    .navbar-menu__mid{
+        background-color: transparent;
+    }
+    /* .main{
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+    .main-list{
+        /* max-width: 100%;  */
+        
+    }
+    .footer-item__first{
+        display: none;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer-item{
+        width: 100%;
+    }
+    .footer-item__body{
+        justify-content: center;
+    }
+    .footer-item__body-last{
+        width: 100%;
+    }
+    .container-body{
+        /* max-width: 600px; */
+    }
+    .card-img-top{
+        /* width: 100%; */
+
+    }
+    .fix_row{
+        justify-content: center;
+        /* display: grid; */
+        
+    }
+}

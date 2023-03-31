@@ -115,7 +115,7 @@ function render(pricing) {
 	containerPricing.innerHTML = pricing.reduce((pre, curr) => {
 		return (pre += `
                 <div class="col-6 col-sm-6 col-md-4 col-xl-3 mt-5">
-                        <div class="card main-list" style="width: 18rem;">
+                        <div class="card main-list">
                         <img src="${curr.bg ?? ""}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-center">${curr.name}</h5>
